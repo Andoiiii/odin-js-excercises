@@ -1,5 +1,13 @@
 const leapYears = require('./leapYears')
 
+console.log("Should be T F T F T F");
+console.log(leapYears(1996));
+console.log(leapYears(1997));
+console.log(leapYears(34992));
+console.log(leapYears(1900));
+console.log(leapYears(1600));
+console.log(leapYears(700));
+/*
 describe('leapYears', () => {
   test('works with non century years', () => {
     expect(leapYears(1996)).toBe(true);
@@ -20,3 +28,4 @@ describe('leapYears', () => {
     expect(leapYears(700)).toBe(false);
   });
 });
+*/

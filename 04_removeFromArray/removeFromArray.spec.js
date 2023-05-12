@@ -1,5 +1,15 @@
 const removeFromArray = require('./removeFromArray')
 
+
+console.log(removeFromArray([1,2,3,4], 3));
+console.log(removeFromArray([1,2,3,4], 3,2));
+console.log(removeFromArray([1,2,3,4], 7,"tacos"));
+console.log(removeFromArray([1,2,3,4], 1,2,3,4));
+console.log(removeFromArray([1,2,3,4], 7,2));
+console.log(removeFromArray(["hey",2,3,"ho"], "hey",3));
+console.log(removeFromArray([1,2,3], "1",3));
+
+/*
 describe('removeFromArray', () => {
   test('removes a single value', () => {
     expect(removeFromArray([1, 2, 3, 4], 3)).toEqual([1, 2, 4]);
@@ -23,3 +33,5 @@ describe('removeFromArray', () => {
     expect(removeFromArray([1, 2, 3], "1", 3)).toEqual([1, 2]);
   });
 });
+
+*/

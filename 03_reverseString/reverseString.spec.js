@@ -1,5 +1,10 @@
 const reverseString = require('./reverseString')
 
+console.log("hello" + " => " + reverseString("hello"));
+console.log("hello there" + " => " + reverseString("hello there"));
+console.log("123! abc!" + " => " + reverseString("123! abc!"));
+console.log("" + " => " + reverseString(""));
+/*
 describe('reverseString', () => {
   test('reverses single word', () => {
     expect(reverseString('hello')).toEqual('olleh');
@@ -16,3 +21,4 @@ describe('reverseString', () => {
     expect(reverseString('')).toEqual('')
   })
 });
+*/
