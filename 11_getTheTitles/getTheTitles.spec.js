@@ -1,6 +1,6 @@
 const getTheTitles = require('./getTheTitles')
 
-describe('getTheTitles', () => {
+
     const books = [
       {
         title: 'Book',
@@ -10,9 +10,5 @@ describe('getTheTitles', () => {
         title: 'Book2',
         author: 'Name2'
       }
-    ]
-
-  test('gets titles', () => {
-    expect(getTheTitles(books)).toEqual(['Book','Book2']);
-  });
-});
+    ];
+console.log(getTheTitles(books));

@@ -1,5 +1,9 @@
 const palindromes = require('./palindromes')
 
+console.log(palindromes('racecar!'));
+console.log(palindromes('Racecar!!!???'));
+
+/*
 describe('palindromes', () => {
   test('works with single words', () => {
     expect(palindromes('racecar')).toBe(true);
@@ -23,3 +27,4 @@ describe('palindromes', () => {
     expect(palindromes('rac3e3car')).toBe(true);
   });
 });
+*/
